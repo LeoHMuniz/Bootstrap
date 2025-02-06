@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Campos com título flutuante</title>
+</head>
+
+<body>
+    <div class="container p-5">
+        <div class="form-floating mb-3">
+            <input type="email" name="" class="form-control" placeholder=" " id="email">
+            <label for="email" class="form-label">E-mail</label>
+
+        </div>
+        <div class="form-floating">
+            <input type="password" name="" class="form-control" placeholder=" " id="password">
+            <label for="password" class="form-label">Senha</label>
+
+        </div>
+        <hr>
+        <div class="form-floating">
+            <textarea name="" id="msg" class="form-control" style="height:100px" placeholder=" "></textarea><label
+                for="msg">Mensagem</label>
+        </div>
+        <hr>
+        <div class="form-floating">
+            <select name="" id="cidade" class="form-select" placeholder=" ">
+                <option value="">Cidade 1</option>
+                <option value="">Cidade 2</option>
+                <option value="">Cidade 3</option>
+                <option value="">Cidade 4</option>
+                <option value="">Cidade 5</option>
+            </select><label for="cidade">Cidade</label>
+        </div>
+
+        <hr>
+
+        <div class="mb-3 input-group">
+            <label for="nome" class="input-group-text">R$</label for="nome">
+            <input type="number" min=0 id="nome" class="form-control text-end">
+            <label for="nome" class="input-group-text">,00</label for="nome">
+        </div>
+        <hr>
+        <div class="mb-3 input-group">
+            <input type="text" class="form-control text-end" id="nome">
+            <span for="nome" class="input-group-text">@</span>
+            <input type="text" class="form-control text-end" id="nome">
+        </div>
+        <hr>
+        <div class="mb-3 input-group">
+            <input type="search" class="form-control">
+            <button class="btn btn-outline-secondary">Buscar</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
