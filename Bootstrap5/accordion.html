@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container my-3">
+        <div class="accordion accordion-flush" id="acc1">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#item1"
+                        type="button">Região 1</button>
+                </div>
+                <div class="accordion-collapse collapse show" id="item1" data-bs-parent="#acc1">
+                    <div class="accordion-body">Conteúdo 1. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Autem, eius expedita! Quae, commodi officiis! Nihil voluptas saepe numquam laudantium officia!
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item2"
+                        type="button">Região 2</button>
+                </div>
+                <div class="accordion-collapse collapse" id="item2" data-bs-parent="#acc1">
+                    <div class="accordion-body">Conteúdo 1. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Autem, eius expedita! Quae, commodi officiis! Nihil voluptas saepe numquam laudantium officia!
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item3"
+                        type="button">Região 3</button>
+                </div>
+                <div class="accordion-collapse collapse" id="item3" data-bs-parent="#acc1">
+                    <div class="accordion-body">Conteúdo 1. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Autem, eius expedita! Quae, commodi officiis! Nihil voluptas saepe numquam laudantium officia!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
